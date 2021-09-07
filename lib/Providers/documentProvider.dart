@@ -56,7 +56,7 @@ class DocumentProvider extends ChangeNotifier {
         return pw.Image(image, fit: angle==0 || angle==180?pw.BoxFit.fill:pw.BoxFit.fitWidth);
       },
     ));
-    final tempDir = await getTemporaryDirectory();
+    final tempDir = await getApplicationDocumentsDirectory();
     String pdfPath = tempDir.path + "/${name}" + ".pdf";
     File pdfFile = File(pdfPath);
     print(pdfPath);

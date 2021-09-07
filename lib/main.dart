@@ -1,5 +1,4 @@
 import 'dart:convert';
-
 import 'package:documentscanner2/Model/documentModel.dart';
 import 'package:documentscanner2/Providers/documentProvider.dart';
 import 'package:documentscanner2/showImage.dart';

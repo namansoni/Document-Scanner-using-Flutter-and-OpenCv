@@ -34,11 +34,12 @@ dependencies:
   provider:
   flutter_isolate:
   pdf:
-  path_provider: ^1.6.11
+  path_provider:
   flutter_full_pdf_viewer:
   flutter_share:
   printing:
   back_button_interceptor:
+  sqflite:
 
 dev_dependencies:
   flutter_test:

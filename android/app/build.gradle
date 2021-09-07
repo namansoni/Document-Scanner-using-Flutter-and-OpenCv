@@ -27,8 +27,8 @@ apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 android {
     compileSdkVersion 28
 
-    lintOptions {
-        disable 'InvalidPackage'
+    lintOptions { 
+        checkReleaseBuilds false
     }
 
     defaultConfig {
